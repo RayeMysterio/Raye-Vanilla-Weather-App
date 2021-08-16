@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
     <title>Raye's Vanilla Weather App</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="container">
+      <div class="weather-app">
+        <h1>Chicago</h1>
+        <ul>
+          <li>Sunday 08:00</li>
+          <li>Clear</li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="Clear"
+            />
+            22°C | °F
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Precipitation: 1%</li>
+              <li>Humidity: 63%</li>
+              <li>Wind: 14 km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <small>
+        <a
+          href="https://github.com/RayeMysterio/Raye-Vanilla-Weather-App"
+          target="_blank"
+        >
+          Open-source code</a
+        >
+        by Rachel "Raye" Fisher
+      </small>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
